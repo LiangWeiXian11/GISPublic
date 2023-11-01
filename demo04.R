@@ -24,7 +24,7 @@ diffChange_csv <- data_csv %>%
 # clean_names() 列名格式化
 
 
-#4.	空间连接 （左连接） 
+#4.	属性连接 （左连接） 
 join_shpCsv <- worldShape %>%
   clean_names()%>%
   left_join(.,
